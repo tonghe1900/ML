@@ -12,6 +12,7 @@ public enum DecisionTree {
 	INSTANCE;
 	public static class Node {
 
+		
 		private String bestClassifierAttribute;
 		private Attribute attribute;
 		private SampleDistribute sample = new SampleDistribute();
